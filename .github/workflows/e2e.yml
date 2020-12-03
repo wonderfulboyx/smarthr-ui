@@ -1,9 +1,9 @@
 name: e2e
 
 on:
-  pull_request:
+  push:
     branches:
-      - master
+      debug-e2e-in-ie
 
 jobs:
   setup:
